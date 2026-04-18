@@ -27,3 +27,21 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+.idea
+out
+src/CallingGC
+src/ColledtionExamples
+src/DynamicProgramming
+src/ExceptionHandling
+src/ExceptionHandlingClass
+src/InheritenceExamle
+src/JavaCollectionbasics
+src/loop
+src/nested_loop_practical
+src/oopexamples
+src/ooppractical
+src/PepCoding
+src/SalesforceBatchJavaPracticle
+src/PracticePseudoCode
+src/StringHandlingPracticle
