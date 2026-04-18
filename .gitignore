@@ -28,8 +28,11 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+### Common IDE ###
 .idea
 out
+
+### Custom Source Directories to Ignore ###
 src/CallingGC
 src/ColledtionExamples
 src/DynamicProgramming
@@ -45,3 +48,22 @@ src/PepCoding
 src/SalesforceBatchJavaPracticle
 src/PracticePseudoCode
 src/StringHandlingPracticle
+
+### IntelliJ IDEA ###
+# Project files
+.idea/
+*.iml
+
+# Build output directories
+out/
+
+# Exclude generated files inside source folders
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
